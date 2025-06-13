@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #bbe4e9;
+}
+
+h3 {
+    font-size: 22px;
+    background-color: #5585b5;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#titulo {
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #5585b5;
+    color: white;
+    border: 1px solid #79c2d0;
+    border-radius: 5px;
+}
+
+#menu a:link,
+:visited {
+    color: #5585b5;
+}
+
+#menu {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu a:hover {
+    padding: 10px;
+    color: white;
+    background-color: #79c2d0;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#content {
+    color: white;
+    padding: 70px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: #53a8b6;
+    font-size: 20px;
+}
+
+#enviarmsg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 1px solid #53a8b6;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5585b5;
+    color: white;
+}
+
+#content a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#content a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+a.kodular:link {
+    color: white;
+    text-decoration: none;
+}
+
+.minhafoto {
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#msg {
+    width: 300px;
+    height: 100px;
+    background-color: gainsboro;
+}
+
+#email {
+    width: 300px;
+    height: 20px;
+    background-color: gainsboro;
+}
+
+#nome {
+    width: 300px;
+    height: 20px;
+    background-color: gainsboro;
+}
+
+#btn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    border-radius: 10px;
+}

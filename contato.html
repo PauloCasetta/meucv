@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu CV</title>
+    <link rel="stylesheet" href="sitecss.css">
+</head>
+
+<body>
+    <br> <!-- Área de título e identificação da página -->
+    <h1 id="titulo">meus contatos...</h1>
+    <div id="menu">
+        <br> <!-- Menu para navegação entre as páginas -->
+        <a href="sobre.html">Sobre mim |</a>
+        <a href="formacao.html">Minhas formações |</a>
+        <a href="portfolio.html">Meu portfólio |</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div id="foto">
+        <img class="minhafoto" src="Imagens/eu.jpg">
+    </div>
+
+
+    <div id="content"> <!-- Conteúdo da página -->
+        <p>
+        <h3>Entre em contato comigo!</h3>
+        <br><br>
+        <ul>
+            <li>WhatsApp: (44) 98863-2135</li>
+            <br>
+            <li>E-mail: casetta.dev@gmail.com</li>
+            <br>
+            <li>Linkedin: <a
+                    href="https://www.linkedin.com/in/paulo-s%C3%A9rgio-casetta-filho-0b6a4095?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    class="linkedin">Paulo Sérgio Casetta Filho</a></li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="enviarmsg"> <!-- Formuário para envio de mensagem -->
+        <p>
+        <form id="mensagem">
+            <table>
+                <tr>
+                    <td><label for="nome">Informe seu nome:</label><br><br></td>
+                    <td><input type="text" id="nome"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Informe seu e-mail: </label><br><br></td>
+                    <td><input type="email" id="email"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="msg">Mensagem: </label><br><br></td>
+                    <td><input type="text" id="msg"><br><br></td>
+                </tr>
+            </table>
+            <input type="button" id="btn" value="Enviar" onclick="enviarMsg()">
+        </form>
+        </p>
+    </div>
+    <script>
+        function enviarMsg() {
+            document.getElementById("nome").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("msg").value = "";
+            alert("Mensagem enviada!");
+        }
+    </script>
+</body>
+
+</html>
